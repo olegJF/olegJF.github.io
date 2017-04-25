@@ -1,0 +1,225 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+body {
+		line-height: 1;
+		font-size: 22px;
+		font-family: 'Open Sans', sans-serif;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+ol, ul {
+		list-style: none; }
+blockquote, q {
+		quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+		content: '';
+		content: none; }
+table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+.top_div{
+    background:transparent url("../img/bg_img.png") no-repeat scroll center center / cover;
+}
+.top_page{
+    text-align: center;
+    position: relative;
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.top_page h1{
+    padding-top: 300px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+	padding-bottom: 15px;
+}
+.top_page p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #696969;
+    
+}
+.green_segment{
+    background-color: #5B9A68;
+    width: 60px;
+    height: 5px;
+    margin: 25px auto;
+}
+.bottom_page{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 350px;
+}
+
+
+.grn_btn h3{
+	padding: 10px 20px;
+	font-weight: 200;
+	font-weight: bolder;
+	}
+.grn_btn button:hover{
+    background: #5B9A68;
+    color: #fff
+	
+}
+.btn-default {
+    color: #4d8c5a;
+    background-color: #fff;
+    border-color: #5B9A68;
+    
+}
+.btn-grey{
+	color: #4d8c5a;
+	background-color:#eee ;
+	border-color: #5B9A68;
+}
+.btn-lg {
+    border-radius: 2px;
+}
+.gray{
+	background: #f8f8f8;
+	padding-top:60px;
+	padding-bottom: 60px;
+}
+.gray h2{
+	font-size:30px;
+	
+	margin-bottom:10px;
+}
+.gray_p{
+	color: rgb(169, 169, 169);
+	font-size: 16px;
+	padding: 20px;
+}
+.center{
+	text-align: center;
+}
+
+.fa-id-card-o{
+	color: #5B9A68;
+}
+.fa-bolt{
+	color: #5B9A68;
+}
+.fa-map-o{
+	color: #5B9A68;
+}
+.square{
+	padding: 20px 20px;
+	border: 2px solid #5b9a68;
+	border-radius: 25px;
+	display: inline-block;
+	position: relative;
+	width:100px;
+	margin-bottom: 20px;
+}
+.white{
+	background: #fff;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #ddd;
+}
+.green {
+	color: #5b9a68;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	
+}
+.gray_h{
+	color: #808080;
+	padding-top: 30px;
+	font-size: 14px;
+	font-family: 'open sans', sans-serif;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+.right-side{
+	float: right;
+	padding-bottom:20px;
+}
+.white_div{
+	background:#fff;
+	border-radius: 5px;
+	text-align:left;
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+	
+}
+.round{
+	background: #eee;
+	height: auto;
+	position: relative;
+	margin-left: 3%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 100%;
+}
+.inl{
+	position: relative;
+	display: inline-block;
+}
+.lft{
+	float:left;
+}
+.rgt{
+	float: right;
+	width: 75%;
+	padding-top: 20px;
+	margin-left:10px;
+	
+}
+.btm{
+	padding-top: 10px;
+	display: inline-block;
+	position: relative;
+}
+.env_st{
+	color: #5b9a68;
+	font-size: 16px;
+	top: -5px;
+	position: relative;
+}
+.sml{
+	font-size:14px;
+}
+.fa-facebook-square{
+	color:#eee
+}
+.fa-facebook-square:hover{
+	color: #3b5998
+}
+.fa-twitter-square{
+	color:#eee
+}
+.fa-twitter-square:hover{
+	color: #1dcaff
+}
+.fa-youtube-square{
+	color:#eee
+}
+.fa-youtube-square:hover{
+	color: #ee0f0f
+}
+.social{
+	margin-top: 40px;
+}
+.social i{
+	padding-right: 10px;
+}
+h2{
+	font-size:30px;
+}
