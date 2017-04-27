@@ -428,13 +428,14 @@
 							adipiscing elit sed do eiusmod tempor incididunt.</p>
 							<div class="form-group">
 								<fieldset id="contact_form">
+								<div id="result"></div>
     						    <form  class="grn_btn">
 									
 								 
-									<input id="name" name="name" type="text" class=" form-control" placeholder="Your Full Name">
-									<input id="email" name="email" type="text"  class=" form-control" placeholder="Enter Your Email">
-									<input id="number" name="number" type="text"  class="form-control" placeholder="Your Phone Number">
-									<button type="button" class="btn btn-default btn_w" id="submit_btn_4">Send Information</button>
+									<input id="name1" name="name" type="text" class=" form-control" placeholder="Your Full Name" required="required">
+									<input id="email1" name="email" type="text" type="email" required="required" class=" form-control" placeholder="Enter Your Email">
+									<input id="number1" name="number" type="text"  class="form-control" placeholder="Your Phone Number" required="required">
+									<button type="button" class="btn btn-default btn_w" id="submit_btn_4" data-toggle="modal" data-target="#myModal">Send Information</button>
 									
 								 
 								</form>
@@ -446,6 +447,32 @@
 				</div>
 			</div>
 		</div>
+		<!-- Pop-up -->
+		
+		<div id="myModal" class="modal fade " tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content confirm_page">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		  
+							<H2 class=" confirm_header modal-title">
+								Thank You Very Much!
+							</h2>
+							<div class="confirm_text modal-body">
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.
+								</p>
+							</div>
+					
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Pop-up -->
 	</section>
 	<section class="footbar">
 		<div class="container">
@@ -474,6 +501,7 @@
 
 	<script src="static/js/jquery.min.js"></script>
 	<script src="static/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='static/js/common.min.js'></script>
 
 	<script src="static/js/custom.js" type="text/javascript"></script>
 

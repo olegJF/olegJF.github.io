@@ -533,3 +533,37 @@ p{
 	padding-right: 15px;
 	float: right;
 }
+.confirm_page{
+	background: #8aba56;
+	box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0.3) !important;
+	border-radius: 2px;
+	width: 500px;
+	max-width: 100%;
+	display: block;
+}
+.confirm_header{
+	text-align: center;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 35px;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	padding-top: 40px;
+}
+.confirm_text{
+	text-align: center;
+	font-size: 16px;
+	color: rgba(255,255,255,0.7);
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	max-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.modal{
+	margin-top:200px;
+}
